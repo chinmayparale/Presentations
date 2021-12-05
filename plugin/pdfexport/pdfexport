@@ -1,0 +1,9 @@
+<script src="plugin/pdfexport/pdfexport.js"></script>
+// .. 
+Reveal.initialize({
+	// ...
+	plugins: [
+		// ..
+		PdfExport,
+	]
+});
