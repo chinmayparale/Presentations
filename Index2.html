@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>This is Chinmay Parale</section>
+				<section>I'm trying to figure out reveal.js</section>
+			    <section>
+					<section>And this is how its going</section>
+					<section>Look vertical slides!</section>
+					<section>Cool isn't it?</section>
+					</section>
+			<section><h2 class="r-fit-text">This is how big text is added</h2></section>
+			<section><h2>Slide 5 - Ul tag adds Bulleted Points</h2>
+				<ul>
+					<li class="fragment">info</li>
+					<li class="fragment">more info</li>
+					<li class="fragment">Some extra info</li>
+					<li class="fragment">Extra more info </li>
+				</ul></section>
+			<section><h1>Heading 1 goes here</h1>
+				<h2>Heading 2 goes here</h2>
+			<p>The paragraph goes here</p>
+			<p><em>Stress emphasized text goes here</em> but not here</p>
+			<p><strong>Emphasized text goes here</strong> but not here</p>
+			</section>
+
+			<section><h1>Ol tag adds numbered points </h1>
+				<ol>
+					<li>First item</li>
+					<li>Second item</li>
+					<li>Third item</li>
+					<p>Li is to be used with ul or ol. Basically means a list. Can be numbered or bulleted
+				  </ol></section>
+			<section><h1>Adding Descriptions</h1>
+			<p>dl tag is used to define a description list</p>
+		<dl><dt>dt is the heading</dt>
+		<dd>dd is the description</dd>
+	<dt>Heading 2</dt>
+<dd>Description 2</dd></dl></section>
+			<section><h1>adding images</h1>
+				<img src="AHA.png" alt="Text to display when image can not be displayed" /></section>
+			<section><h1>Adding Colours - Use span</h1>
+				<p><span class="red_text">Span text goes here</span> and not here</p></section>
+			
+			<section><h1>Adding line breaks</h1>
+			<p>The line starts here and <br>breaks here</p></section>
+			<section><h3>hr tag defines thematic breaks. Good for making title slides I guess</h3>
+			<p>Presenter</p>
+		<hr><p>Moderator</p></section>
+			<section><h1>Using a pre tag</h1>
+			<p><pre>A pre tag will basically preserve    your spacing
+	and display text exactly 
+		like you have
+			typed
+			</pre></p>
+		<p>Should be useful while entering text along side an image</p></section>
+			<section><p>sub tag will make it subscript. Like <sub>this</sub></p>
+			<p>sup tag will make it super <sup>script</sup></p></section>
+			<section><h1>Adding tables</h1>
+			<table><tr><th>Name</th><th>Age</th><th>Sex</th>
+				<tr><td>Chinmay</td><td>Male</td><td>27</td></tr>
+		        <tr><td>Ramanathan</td><td>Male</td><td>28</td></tr>
+	</table></section>
+			<section>SLide 16</section>
+				
+            </div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+				transition: 'fade',
+				slideNumber: true, 
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
